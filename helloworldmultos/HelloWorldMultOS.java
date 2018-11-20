@@ -271,7 +271,7 @@ public class HelloWorldMultOS {
                 Test_ECC(counter, Integer.decode("0x" + size));
             }
          
-            Symetric symetric = new Symetric();
+        /*    Symetric symetric = new Symetric();
 
             int[] sizesSymetric = new int[]{128, 1024, 2048}; //bits
 
@@ -326,7 +326,7 @@ public class HelloWorldMultOS {
             for (int i = 0; i < sizesTESTSpeed.length; i = i + 1) {
                 testTestSpeed(counter, (sizesTESTSpeed[i]));
             }
-
+*/
             ////////////////TEST SPEED  ////////////////
             Modular modular = new Modular();
 

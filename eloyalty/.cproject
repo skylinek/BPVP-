@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.multos.cdt.toolchain.debug.691428063">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.multos.cdt.toolchain.debug.691428063" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.ui.MULTOS hcl Error Parser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.ui.MULTOS hcl Error Parser" id="com.multos.cdt.toolchain.debug.691428063" name="Debug" parent="com.multos.cdt.toolchain.debug">
+					<folderInfo id="com.multos.cdt.toolchain.debug.691428063." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.multos.cdt.toolchain.debug.toolchain.1074980055" name="MULTOS SmartDeck (debug)" superClass="com.multos.cdt.toolchain.debug.toolchain">
+							<targetPlatform id="com.multos.cdt.toolchain.debug.targetplatform.931784510" isAbstract="false" name="Windows" osList="win32" superClass="com.multos.cdt.toolchain.debug.targetplatform"/>
+							<builder buildPath="${workspace_loc:/eloyalty}/Debug" errorParsers="" id="com.multos.cdt.toolchain.debug.builder.1225221004" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="MULTOS Debug Builder" superClass="com.multos.cdt.toolchain.debug.builder"/>
+							<tool errorParsers="" id="com.multos.cdt.toolchain.debug.compiler.1920587600" name="SmartDeck Compiler" superClass="com.multos.cdt.toolchain.debug.compiler">
+								<inputType id="com.multos.cdt.toolchain.debug.compiler.input.1123590583" name="Source Code" superClass="com.multos.cdt.toolchain.debug.compiler.input"/>
+							</tool>
+							<tool errorParsers="" id="com.multos.cdt.toolchain.debug.linker.1112113839" name="SmartDeck Linker" superClass="com.multos.cdt.toolchain.debug.linker">
+								<inputType id="com.multos.cdt.toolchain.debug.linker.input.1303556276" name="Horizon object file" superClass="com.multos.cdt.toolchain.debug.linker.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="eloyalty.com.multos.cdt.toolchain.executable.1470405780" name="MULTOS" projectType="com.multos.cdt.toolchain.executable"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
